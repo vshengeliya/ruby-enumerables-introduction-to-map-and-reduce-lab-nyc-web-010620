@@ -5,9 +5,9 @@
     i =0
     while i<array.lengt do
   array.map {|i|i*-1} 
-  i+=1 
-  end
-  array
+    i+=1 
+    end
+   return array
   end
 
 
