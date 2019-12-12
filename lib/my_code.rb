@@ -21,6 +21,9 @@ array.map {|n|n*n}
 array = [1, 2, 3]
 array.reduce(0,:+ ))
 
+array = [1, 2, 3]
+array.reduce(100,:+ ))
+
 
 # reduce_to_all_true(source_array)
 
