@@ -10,5 +10,7 @@ dune = ["paul", "gurney", "vladimir", "jessica", "chani"]
 dune.map {|String|String}
 
 # map_to_double(source_array)
+array = [1, 2, 3, -9]
+array.map {|n|n*n}
 
 # map_to_square(source_array)
