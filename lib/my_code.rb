@@ -1,8 +1,15 @@
 # My Code here....
 
-#map_to_negativize = 
-array = [1, 2, 3, -9]
-array.map {|i|i*-1} 
+  def map_to_negativize (source_array)
+    array =[]
+    i =0
+    while i<array.lengt do
+  array.map {|i|i*-1} 
+  i+=1 
+  end
+  array
+  end
+
 
 
 # map_to_no_change(source_array)
