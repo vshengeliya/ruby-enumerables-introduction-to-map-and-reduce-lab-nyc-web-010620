@@ -11,6 +11,8 @@ dune.map {|String|String}
 
 # map_to_double(source_array)
 array = [1, 2, 3, -9]
-array.map {|n|n*n}
+array.map {|n|n*2}
 
 # map_to_square(source_array)
+array = [1, 2, 3, -9]
+array.map {|n|n*n}
