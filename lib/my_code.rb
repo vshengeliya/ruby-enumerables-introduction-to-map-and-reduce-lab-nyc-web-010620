@@ -35,11 +35,15 @@ def map_to_square(source_array)
   array=[]
   i=0 
   while i< array.lenght do
-    array.push (source_array[i])
-array = [1, 2, 3, -9]
-array.map {|n|n*n}
+    array.push (source_array[i]* source_array[i])
+    i +=1 
+  end
+  return array
+end
 
-# reduce_to_total(source_array, starting_point)
+reduce_to_total(source_array, starting_point)
+
+
 array = [1, 2, 3]
 array.reduce(0,:+ ))
 
