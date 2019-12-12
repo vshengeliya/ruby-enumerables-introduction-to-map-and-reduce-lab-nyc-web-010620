@@ -27,16 +27,18 @@ array.reduce(100,:+ ))
 
 # reduce_to_all_true(source_array)
 source_array = [1, 2, true, "razmatazz"]
+source_array.reduce(:&)
 
-source_array.
  source_array = [1, 2, true, "razmatazz", false]
+ source_array.reduce(:&)
 
 # reduce_to_any_true(source_array)
 
 source_array = [ false, nil, nil, nil, true]
+source_array.reduce(:|)
 
 source_array = [ false, nil, nil, nil]
-
+source_array.reduce(:|)
 
 
   
