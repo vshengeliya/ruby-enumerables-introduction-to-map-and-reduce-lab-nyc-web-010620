@@ -26,44 +26,16 @@ array.reduce(100,:+ ))
 
 
 # reduce_to_all_true(source_array)
+source_array = [1, 2, true, "razmatazz"]
 
+ source_array = [1, 2, true, "razmatazz", false]
 
 # reduce_to_any_true(source_array)
 
+source_array = [ false, nil, nil, nil, true]
 
- describe "reduce_to_total returns a running total when given a starting point" do
-    it "reduces correctly" do
-      source_array = [1,2,3]
-      starting_point = 100
-      expect(reduce_to_total(source_array, starting_point)).to eq(106)
-    end
-  end
+source_array = [ false, nil, nil, nil]
 
-  describe "reduce_to_all_true returns true when all values are truthy" do
-    it "reduces correctly" do
-      source_array = [1, 2, true, "razmatazz"]
-      expect(reduce_to_all_true(source_array)).to be_truthy
-    end
-  end
 
-  describe "reduce_to_all_true returns false when any value is false" do
-    it "reduces correctly" do
-      source_array = [1, 2, true, "razmatazz", false]
-      expect(reduce_to_all_true(source_array)).to be_falsy
-    end
-  end
 
-  describe "reduce_to_any_true returns true when a truthy value is present" do
-    it "reduces correctly" do
-      source_array = [ false, nil, nil, nil, true]
-      expect(reduce_to_any_true(source_array)).to eq(true)
-    end
-  end
-
-  describe "reduce_to_any_true returns false when no truthy value is present" do
-    it "reduces correctly" do
-      source_array = [ false, nil, nil, nil]
-      expect(reduce_to_any_true(source_array)).to eq(false)
-    end
-  end
-
+  
