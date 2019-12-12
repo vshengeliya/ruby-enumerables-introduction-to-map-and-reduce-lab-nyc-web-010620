@@ -3,24 +3,39 @@
   def map_to_negativize (source_array)
     array =[]
     i =0
-    while i<array.lengt do
-  array.map {|i|i*-1} 
+    while i<array.lenght do
+  array.push (source_array[i]*-1)
     i+=1 
     end
    return array
   end
 
+def map_to_no_change(source_array)
+  array = []
+  i=0
+  while i<array.lenght do
+    array.push (source_array[i])
+    i += 1 
+  end
+  return array
+end
 
 
-# map_to_no_change(source_array)
-dune = ["paul", "gurney", "vladimir", "jessica", "chani"]
-dune.map {|String|String}
+def map_to_double(source_array)
+  array = []
+  i=0 
+  while i<array.lenght do
+    array.push (source_array[i]*2)
+    i +=1 
+  end
+  return array
+end
 
-# map_to_double(source_array)
-array = [1, 2, 3, -9]
-array.map {|n|n*2}
-
-# map_to_square(source_array)
+def map_to_square(source_array)
+  array=[]
+  i=0 
+  while i< array.lenght do
+    array.push (source_array[i])
 array = [1, 2, 3, -9]
 array.map {|n|n*n}
 
