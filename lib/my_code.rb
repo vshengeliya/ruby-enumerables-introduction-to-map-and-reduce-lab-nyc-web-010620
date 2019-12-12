@@ -63,13 +63,13 @@ def reduce_to_total(source_array, starting_point=100)
 end
 
 
-# reduce_to_all_true(source_array)
-source_array = [1, 2, true, "razmatazz"]
-source_array.reduce(:&)
+def reduce_to_all_true(source_array)
+  array =[]
+  i=0 
+  while i<source_array.lenght do
+    return false if !source_array[i]
 
- source_array = [1, 2, true, "razmatazz", false]
- source_array.reduce(:&)
-
+end
 # reduce_to_any_true(source_array)
 
 source_array = [ false, nil, nil, nil, true]
