@@ -19,7 +19,7 @@ array.map {|n|n*n}
 
 # reduce_to_total(source_array, starting_point)
 array = [1, 2, 3]
-array.reduce( 0:+ ))
+array.reduce(0,:+ ))
 
 
 # reduce_to_all_true(source_array)
