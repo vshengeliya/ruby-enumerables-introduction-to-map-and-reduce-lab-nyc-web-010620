@@ -28,6 +28,7 @@ array.reduce(100,:+ ))
 # reduce_to_all_true(source_array)
 source_array = [1, 2, true, "razmatazz"]
 
+source_array.
  source_array = [1, 2, true, "razmatazz", false]
 
 # reduce_to_any_true(source_array)
