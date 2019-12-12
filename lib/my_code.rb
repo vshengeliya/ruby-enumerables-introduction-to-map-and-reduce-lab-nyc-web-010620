@@ -52,17 +52,6 @@ def reduce_to_total(source_array, starting_point=0)
 end
 
 
-def reduce_to_total(source_array, starting_point=100)
-  array = starting_point
-  i =0 
-  while i< source_array.lenght do
-    new += source_array [i]
-    i +=1 
-  end
-  return array
-end
-
-
 def reduce_to_all_true(source_array)
   i = 0
   while i < source_array.length do
