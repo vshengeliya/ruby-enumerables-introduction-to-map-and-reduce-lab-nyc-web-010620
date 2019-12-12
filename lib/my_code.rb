@@ -1,7 +1,8 @@
 # My Code here....
 
-map_to_negativize(-1,[1, 2, 3, -9])= 
-
+def map_to_negativize = 
+(1, 2, 3, -9).map {|i|i*-1} 
+end
 
 map_to_no_change(source_array)
 
